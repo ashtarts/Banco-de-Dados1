@@ -1,1 +1,1 @@
- <h1 align="center"> Atividades, Projetos da disciplina de Banco de Dados - 2023.2 </h1>
+ <h1 align="center"> Atividades, Projetos da disciplina de Banco de Dados - 2024.1 </h1>
