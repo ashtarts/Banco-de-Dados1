@@ -3,6 +3,7 @@
 
 <h2 align="left"> Projeto 1 - Modelo Conceitual </h2>
 Aluna: Ana Virgínia, RA: 00000847971
+<br>
 Um diagrama entidade-relacionamento (DER) utilizado na modelagem de bancos de dados. 
 Feito com BRMW, é um modelo conceitual de um sistema de uma Escola. 
 Existem 16 Entidades e seus respectivos Relacionamentos e Atributos.
