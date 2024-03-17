@@ -19,11 +19,15 @@ Existem 16 Entidades e seus respectivos Relacionamentos e Atributos.
 ➯Modelar especialização-generalização, por exemplo, se há diferentes tipos de disciplinas (obrigatórias, eletivas).
 <br>
  <h3  align="left"> Requisitos adicionais:</h3>
-➯ 16 entidades: Escola: Representa a instituição de ensino como um todo; Departamento: Representa as áreas de atuação dentro da escola; Professor: Representa os profissionais que ministram as aulas; FuncionárioRepresenta os profissionais que trabalham em outras áreas da escola sem ser na sala de aula; Disciplina: Representa os conteúdos que são ministrados na escola; Extracurricular: Representa as atividades opcionais oferecidas pela escola; Sala/Lab: Representa os espaços físicos da escola onde pode haver aula; Aluno: Representa os estudantes da escola; Mensalidade: Representa o pagamento periódico feito pelos alunos; Taxas: Representa os pagamentos extras realizados pelos alunos; Finanças: Representa a situação financeira da escola; Venda de Produtos: Representa a venda de materiais escolares, livros, uniforme e outros produtos Cantina: Representa o serviço de alimentação da escola; Aluguel de Espaço: Representa a possibilidade de alugar os espaços da escola para eventos externos; Espaço: Representa os diferentes espaços físicos da escola (quadra, auditório, etc.); Eventos: Representa as atividades; Parcerias: Representa as colaborações entre a escola e outras instituições;
+➯ 16 entidades ⮕ Escola: Representa a instituição de ensino como um todo; Departamento: Representa as áreas de atuação dentro da escola; Professor: Representa os profissionais que ministram as aulas; FuncionárioRepresenta os profissionais que trabalham em outras áreas da escola sem ser na sala de aula; Disciplina: Representa os conteúdos que são ministrados na escola; Extracurricular: Representa as atividades opcionais oferecidas pela escola; Sala/Lab: Representa os espaços físicos da escola onde pode haver aula; Aluno: Representa os estudantes da escola; Mensalidade: Representa o pagamento periódico feito pelos alunos; Taxas: Representa os pagamentos extras realizados pelos alunos; Finanças: Representa a situação financeira da escola; Venda de Produtos: Representa a venda de materiais escolares, livros, uniforme e outros produtos Cantina: Representa o serviço de alimentação da escola; Aluguel de Espaço: Representa a possibilidade de alugar os espaços da escola para eventos externos; Espaço: Representa os diferentes espaços físicos da escola (quadra, auditório, etc.); Eventos: Representa as atividades; Parcerias: Representa as colaborações entre a escola e outras instituições;
 <br>
-➯ Cada entidade com seus devidos atributos.
 <br>
-➯ Relacionamentos para as devidas Entidades.
+➯ Cada entidade com seus devidos atributos ⮕ Entidade com mais atributos: ESCOLA, tem 15. Entidade com menos atributos: DEPARTAMENTO, tem 2.
+<br>
+<br>
+➯ Relacionamentos para as devidas Entidades ⮕ Departamento FAZ PARTE de Escola; Funcionário e Professor TRABALHAM em Departamento; Professor RESERVA Sala/Lab; Professor ENSINA Disciplina; Aluno CURSA Disciplina; Aluno ESTUDA em Escola; Aluno PAGA Mensalidade e Taxas; Taxas, Aluguel de Espaço, Cantina, Mensalidade e Venda de Produtos são ENTRADA DE DINHEIRO em Finanças; Escola ORGANIZA Eventos; Eventos RESERVA Espaço; ESCOLA tem PARCERIAS.
+<br>
 <br>
 ➯ Cardinalidades dos relacionamentos devidamente especificados.
+<br>
 <br>
